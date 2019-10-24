@@ -61,7 +61,7 @@
 .med-fa{
   font-size: 2em;
 }
-
+.mySlides2 {display:none;}
 
 /* Small Screen Styling */
 @media (max-width:600px){
