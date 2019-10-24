@@ -1,0 +1,86 @@
+
+.blue-flair{
+  
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hospital-ward-image{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.774),rgba(0,0,0,0.6) 27%), url('./images/hospital-ward-1338585_1920.jpg');
+}
+.hospital-laptop-image{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.774),rgba(0,0,0,0.6) 27%), url('./images/computer-3343887_1920.jpg');
+}
+.med-logo-con{
+  padding: 40px!important;
+}
+/* #00c3ff44,#00c3ff44 */
+.med-color{
+  color: #00c3ff!important;
+}
+.med-bg,.med-hover-bg:hover {
+  background-color: #00c3ff!important;
+  color: #fff!important;
+}
+.med-bg2{
+  background: linear-gradient(to left, #00c3ff80 0%, #00c3ff 100%);
+}
+.med-hover-bg,.med-hover-bg:hover{
+  transition: 0.3s;
+}
+.med-title{
+  font-size: 4.3em;
+  line-height: 1em;
+}
+.med-text-big{
+  font-size: 1.7em;
+  text-align: center;
+  color: #FFF;
+}
+.med-text-big,.med-title,.med-xbtn{
+  text-shadow: 1px 2px 1px rgb(24, 24, 24);
+}
+.med-xbtn{
+  font-size: 1.2em;
+}
+.med-ditop{
+  position: absolute;
+  max-width:600px;
+  top:50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+::selection{
+  background: #00c3ff;
+}
+.med-fa{
+  font-size: 2em;
+}
+
+
+/* Small Screen Styling */
+@media (max-width:600px){
+  .med-fa{
+    font-size: 18px;
+  }
+  .med-ditop{
+    top:55%;
+  }
+  .med-title{
+    font-size: 2.2em;
+  }
+  .med-text-big{
+    font-size: 1.1em;
+  }
+  .med-xbtn{
+    font-size: 1em;
+  }
+}
+.med-bold{
+  font-weight: bold;
+}
